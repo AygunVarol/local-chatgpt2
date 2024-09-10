@@ -37,7 +37,7 @@ You will need to install the following Python packages:
 ### 3-Installation
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/chatgpt2-speech-client.git
+git clone https://github.com/AygunVarol/local-chatgpt2.git
 cd chatgpt2-speech-client
 ```
 Create and Activate a Virtual Environment:
