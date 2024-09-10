@@ -7,8 +7,7 @@ This repository contains a desktop client that integrates the GPT-2 model for co
 - Prerequisites
 - Installation
 - Running the Application
-- How it Works
-- Acknowledgments
+- License
 
 ### 1-Features
 * GPT-2 powered responses: Utilizes the GPT-2 language model from Hugging Face's Transformers library for generating conversational responses.
@@ -23,7 +22,6 @@ Before running the application, ensure that you have the following installed:
 *A microphone for speech input
 *Internet access to download GPT-2 model (only on the first run)
 
-### 3-Required Libraries
 You will need to install the following Python packages:
 *transformers for loading GPT-2
 *torch for running the GPT-2 model
@@ -31,16 +29,52 @@ You will need to install the following Python packages:
 *pyttsx3 for converting text responses to speech
 *tkinter (usually pre-installed with Python) for the GUI
 
-### 4-Installation
+### 3-Installation
 Clone the repository:
-`git clone https://github.com/your-username/chatgpt2-speech-client.git`
+```bash
+git clone https://github.com/your-username/chatgpt2-speech-client.git
+cd chatgpt2-speech-client
+```
+Create and Activate a Virtual Environment:
+```bash
+python3.11 -m venv venv
+source venv/bin/activate  # For Windows, use `venv\Scripts\activate`
+```
+Install Dependencies:
+```bash
+pip install transformers torch speechrecognition pyttsx3
+```
+Install PyAudio (required for speech recognition):
+PyAudio is a dependency of speechrecognition and may require additional steps for installation.
+  - On Windows: You can install PyAudio directly using a pre-built binary:
+    ```bash
+    pip install pipwin
+    pipwin install pyaudio
+    ```
+  - On Linux: You may need to install some additional system dependencies before installing PyAudio:
+    ```bash
+    sudo apt-get install portaudio19-dev python3-pyaudio
+    pip install pyaudio
+    ```
+  - On macOS:
+    ```bash
+    brew install portaudio
+    pip install pyaudio
+    ```
+Download GPT-2 Model:
+The model will automatically be downloaded when you run the application for the first time. Ensure you have a stable internet connection.
 
-`cd chatgpt2-speech-client`
+### 4-Running the Application
+Once the dependencies are installed, you can start the application with:
+```bash
+python local-chatgpt2.py
+```
 
-  
+[Hugging Face](https://huggingface.co/) for providing the GPT-2 model and the transformers library.
+[Pyttsx3](https://pypi.org/project/pyttsx3/) for easy-to-use text-to-speech functionality.
+[SpeechRecognition](https://pypi.org/project/SpeechRecognition/) for handling the voice input.
+[Tkinter](https://wiki.python.org/moin/TkInter) for providing the graphical interface.
 
-
-
-
-
-
+### 5-License
+   - The project is licensed under the MIT License.
+    
