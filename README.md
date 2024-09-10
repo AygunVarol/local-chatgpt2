@@ -1,4 +1,7 @@
 # ChatGPT-2 Model Desktop Client with Continuous Speech
+
+![1](https://github.com/user-attachments/assets/56f06bb6-24f5-4a54-b9df-70bc474f8efa)
+
 ## Overview
 This repository contains a desktop client that integrates the GPT-2 model for conversational AI, enhanced with continuous speech recognition. The application listens for user speech input, processes it via the GPT-2 model, and responds with both text and speech, creating an interactive dialogue system.
 
