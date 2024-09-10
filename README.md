@@ -1,4 +1,4 @@
-# ChatGPT-2 Model Desktop Client with Continuous Speech
+# <center> ChatGPT-2 Model Desktop Client with Continuous Speech </center>
 
 This is a example of a user interface's frame
 
