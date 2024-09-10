@@ -23,16 +23,18 @@ This repository contains a desktop client that integrates the GPT-2 model for co
 
 ### 2-Prerequisites
 Before running the application, ensure that you have the following installed:
-*Python 3.11.9 or higher
-*A microphone for speech input
-*Internet access to download GPT-2 model (only on the first run)
+
+* Python 3.11.9 or higher
+* A microphone for speech input
+* Internet access to download GPT-2 model (only on the first run)
 
 You will need to install the following Python packages:
-*transformers for loading GPT-2
-*torch for running the GPT-2 model
-*speechrecognition for capturing and converting speech input
-*pyttsx3 for converting text responses to speech
-*tkinter (usually pre-installed with Python) for the GUI
+
+* transformers for loading GPT-2
+* torch for running the GPT-2 model
+* speechrecognition for capturing and converting speech input
+* pyttsx3 for converting text responses to speech
+* tkinter (usually pre-installed with Python) for the GUI
 
 ### 3-Installation
 Clone the repository:
