@@ -1,6 +1,7 @@
 # ChatGPT-2 Model Desktop Client with Continuous Speech
 
 This is a example of a user interface's frame
+
 ![1](https://github.com/user-attachments/assets/56f06bb6-24f5-4a54-b9df-70bc474f8efa)
 
 ## Overview
