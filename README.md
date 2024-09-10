@@ -1,7 +1,7 @@
 # ChatGPT-2 Model Desktop Client with Continuous Speech
 This repository allows you to access LLM GPT2 in local device. This project is a Python-based desktop application that uses the GPT-2 language model for real-time conversational interaction with speech-to-text and text-to-speech capabilities. It captures the user's voice input, converts it to text, generates responses using the GPT-2 model, and then speaks the responses aloud.
 
-Table of Contents
+## Table of Contents
 1-Features
 2-Prerequisites
 3-Installation
