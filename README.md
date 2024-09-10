@@ -76,8 +76,11 @@ python local-chatgpt2.py
 ```
 
 [Hugging Face](https://huggingface.co/) for providing the GPT-2 model and the transformers library.
+
 [Pyttsx3](https://pypi.org/project/pyttsx3/) for easy-to-use text-to-speech functionality.
+
 [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) for handling the voice input.
+
 [Tkinter](https://wiki.python.org/moin/TkInter) for providing the graphical interface.
 
 ### 5-License
